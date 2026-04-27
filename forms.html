@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8" />
+  <title>Forms – Ohranimo Dravlje</title>
+</head>
+<body>
+  <!-- Netlify Forms detection skeleton – never shown to users -->
+
+  <!-- Anketa (survey) -->
+  <form name="anketa-dravlje" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="anketa-dravlje" />
+    <input type="text" name="ime" />
+    <input type="email" name="email" />
+    <input type="radio" name="stalisče" />
+    <select name="visina"></select>
+    <textarea name="razlog"></textarea>
+    <input name="bot-field" />
+  </form>
+
+  <!-- Peticija (petition) -->
+  <form name="peticija-dravlje" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="peticija-dravlje" />
+    <input type="text" name="ime" />
+    <input type="email" name="email" />
+    <input type="text" name="naslov" />
+    <textarea name="sporocilo"></textarea>
+    <input name="bot-field" />
+  </form>
+
+  <!-- Kontakt (contact) -->
+  <form name="kontakt-dravlje" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="kontakt-dravlje" />
+    <input type="text" name="ime" />
+    <input type="email" name="email" />
+    <input type="tel" name="telefon" />
+    <select name="tema"></select>
+    <textarea name="sporocilo"></textarea>
+    <input name="bot-field" />
+  </form>
+</body>
+</html>
